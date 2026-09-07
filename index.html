@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="WahouVoya — découvrez des destinations, expériences et services de voyage.">
+<link rel="stylesheet" href="WahouVoya.css">
+<title>WahouVoya — Voyagez autrement</title>
+<style>
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#accueil">Wahou<span>Voya</span></a>
+    <button class="menu" aria-label="Menu">☰</button>
+    <nav>
+      <a href="#accueil" class="active">Accueil</a><a href="#destinations">Destinations</a><a href="#services">Services</a>
+      <a href="#experiences">Expériences</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="#contact">Planifier mon voyage</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+  <div class="container hero-content">
+    <span class="badge">✈️ Votre prochaine aventure commence ici</span>
+    <h1 class="hero-title">
+      <span class="hero-line hero-line-top">Voyagez</span>
+      <span class="hero-line hero-line-middle">
+        <span class="typed-text" aria-live="polite"></span><span class="cursor" aria-hidden="true"></span>
+      </span>
+      <span class="hero-line hero-line-bottom"><span class="highlight-word">Découvrez.</span></span>
+    </h1>
+    <p>WahouVoya vous accompagne pour trouver des destinations inspirantes et créer des expériences de voyage mémorables.</p>
+    <div class="search">
+      <input id="searchInput" type="search" placeholder="Rechercher une destination…">
+      <a class="btn" href="#destinations" id="searchBtn">🔎 Rechercher</a>
+    </div>
+  </div>
+</section>
+
+<section id="destinations">
+ <div class="container">
+  <div class="section-head"><h2>Destinations</h2><p>Des idées de voyages pour vous inspirer, de l’évasion balnéaire aux découvertes culturelles.</p></div>
+  <div class="grid" id="destinationGrid">
+   <article class="card destination" data-name="zanzibar tanzanie plage"><img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=900&q=80"><div class="card-body"><h3>Zanzibar</h3><p>Plages, soleil et atmosphère tropicale pour une parenthèse inoubliable.</p><span class="tag">Évasion</span></div></article>
+   <article class="card destination" data-name="dubai emirats ville luxe"><img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80"><div class="card-body"><h3>Dubaï</h3><p>Architecture spectaculaire, shopping et expériences modernes.</p><span class="tag">Découverte</span></div></article>
+   <article class="card destination" data-name="paris france culture romantique"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80"><div class="card-body"><h3>Paris</h3><p>Culture, gastronomie et charme parisien au cœur de la France.</p><span class="tag">Culture</span></div></article>
+   <article class="card destination" data-name="cap town afrique afrique du sud nature"><img src="https://images.unsplash.com/photo-1580060839134-75a5edca2e99?auto=format&fit=crop&w=900&q=80"><div class="card-body"><h3>Le Cap</h3><p>Une rencontre entre océan, montagne, nature et culture.</p><span class="tag">Nature</span></div></article>
+   <article class="card destination" data-name="marrakech maroc culture voyage"><img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?auto=format&fit=crop&w=900&q=80"><div class="card-body"><h3>Marrakech</h3><p>Couleurs, marchés, architecture et immersion dans la culture marocaine.</p><span class="tag">Immersion</span></div></article>
+   <article class="card destination" data-name="maldives plage îles"><img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=900&q=80"><div class="card-body"><h3>Maldives</h3><p>Un décor insulaire pour ralentir, respirer et profiter pleinement.</p><span class="tag">Relaxation</span></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="features" id="services">
+ <div class="container">
+  <div class="section-head"><h2>Nos services & avantages</h2><p>Un accompagnement simple pour préparer votre voyage avec sérénité.</p></div>
+  <div class="feature-grid">
+   <div class="feature"><div class="icon">🧭</div><h3>Conseils voyage</h3><p>Des idées adaptées à votre projet.</p></div>
+   <div class="feature"><div class="icon">✈️</div><h3>Organisation</h3><p>Préparez votre séjour étape par étape.</p></div>
+   <div class="feature"><div class="icon">🏨</div><h3>Hébergement</h3><p>Trouvez l’ambiance qui vous correspond.</p></div>
+   <div class="feature"><div class="icon">🤝</div><h3>Accompagnement</h3><p>Une expérience pensée pour vous.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="experiences" class="experience">
+ <div class="container">
+  <div class="exp">
+   <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85" alt="Voyage et aventure">
+   <div><div class="section-head" style="text-align:left;margin:0"><h2>Des expériences qui restent</h2><p>Avec WahouVoya, le voyage ne se résume pas à une destination. Nous mettons l’accent sur les moments, les découvertes et les souvenirs.</p></div>
+   <ul><li>✓ Des destinations inspirantes</li><li>✓ Une approche simple et humaine</li><li>✓ Des expériences pour tous les styles</li></ul>
+   <a class="btn" href="#contact">Parler de mon projet</a></div>
+  </div>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="container">
+  <div class="section-head"><h2>Parlons de votre prochain voyage</h2><p>Décrivez-nous votre projet et nous vous répondrons avec plaisir.</p>
+<p style="margin-top:12px;font-weight:800">📞 <a href="tel:+2250545854514">0545854514</a> / <a href="tel:+2250153772073">0153772073</a> &nbsp; | &nbsp; ✉️ <a href="mailto:kouadioh406@gmail.com">kouadioh406@gmail.com</a></p></div>
+  <form class="form" id="contactForm" action="https://formsubmit.co/kouadioh406@gmail.com" method="POST">
+   <input type="hidden" name="_captcha" value="false">
+   <input type="hidden" name="_subject" value="Nouveau message WahouVoya">
+   <input type="hidden" name="_template" value="table">
+   <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+   <div class="form-grid">
+    <div><label for="name">Nom</label><input id="name" name="nom" required placeholder="Votre nom"></div>
+    <div><label for="email">E-mail</label><input id="email" name="email" type="email" required placeholder="vous@email.com"></div>
+    <div><label for="destination">Destination souhaitée</label><input id="destination" name="destination" placeholder="Ex. Zanzibar"></div>
+    <div><label for="date">Période</label><input id="date" name="periode" placeholder="Ex. Décembre 2026"></div>
+    <div class="full"><label for="message">Votre projet</label><textarea id="message" name="message" required placeholder="Parlez-nous de votre voyage…"></textarea></div>
+    <div class="full"><button class="btn" type="submit">Envoyer ma demande</button><div class="notice" id="notice">Envoi de votre demande en cours...</div></div>
+   </div>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer><div class="container footer-row"><div class="logo">Wahou<span>Voya</span></div><div class="small">© 2026 WahouVoya — Voyagez autrement.</div>
+<div class="small">📞 <a href="tel:+2250545854514">0545854514</a> / <a href="tel:+2250153772073">0153772073</a><br>✉️ <a href="mailto:kouadioh406@gmail.com">kouadioh406@gmail.com</a></div><div class="small"><a href="#accueil">Retour en haut ↑</a></div></div></footer>
+
+<script>
+const menu=document.querySelector('.menu'), nav=document.querySelector('nav');
+menu.addEventListener('click',()=>nav.classList.toggle('open'));
+document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+
+const typedText=document.querySelector('.typed-text');
+const phrases=['Voyagez... en toute confiance','Voyagez... proprement','Découvrez... l’aventure'];
+let phraseIndex=0, charIndex=0, isDeleting=false;
+
+function typeLoop(){
+  if (!typedText) return;
+
+  const currentPhrase = phrases[phraseIndex];
+
+  if (!isDeleting) {
+    charIndex += 1;
+    typedText.textContent = currentPhrase.slice(0, charIndex);
+
+    if (charIndex === currentPhrase.length) {
+      isDeleting = true;
+      setTimeout(typeLoop, 1200);
+      return;
+    }
+  } else {
+    charIndex -= 1;
+    typedText.textContent = currentPhrase.slice(0, charIndex);
+
+    if (charIndex === 0) {
+      isDeleting = false;
+      phraseIndex = (phraseIndex + 1) % phrases.length;
+    }
+  }
+
+  const speed = isDeleting ? 55 : 100;
+  setTimeout(typeLoop, speed);
+}
+
+typeLoop();
+
+const navLinks=[...document.querySelectorAll('nav a')];
+const sections=[...document.querySelectorAll('main section[id]')];
+
+function setActiveLink(link) {
+  navLinks.forEach(item => item.classList.toggle('active', item === link));
+}
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => setActiveLink(link));
+});
+
+const sectionObserver = new IntersectionObserver((entries) => {
+  const visibleEntry = entries.filter(entry => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+  if (!visibleEntry) return;
+
+  const activeLink = navLinks.find(link => link.getAttribute('href') === '#' + visibleEntry.target.id);
+  if (activeLink) setActiveLink(activeLink);
+}, { threshold: [0.35, 0.6, 0.8] });
+
+sections.forEach(section => sectionObserver.observe(section));
+
+const input=document.getElementById('searchInput');
+const cards=[...document.querySelectorAll('.destination')];
+function filter(){
+ const q=input.value.toLowerCase().trim();
+ cards.forEach(c=>c.style.display=(!q || c.dataset.name.includes(q) || c.textContent.toLowerCase().includes(q))?'block':'none');
+ document.getElementById('destinations').scrollIntoView({behavior:'smooth'});
+}
+document.getElementById('searchBtn').addEventListener('click',e=>{e.preventDefault();filter()});
+input.addEventListener('keydown',e=>{if(e.key==='Enter')filter()});
+
+document.getElementById('contactForm').addEventListener('submit', () => {
+  document.getElementById('notice').style.display = 'block';
+});
+</script>
+</body>
+</html>
